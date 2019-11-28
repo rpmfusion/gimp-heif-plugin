@@ -1,6 +1,6 @@
 Name:           gimp-heif-plugin
 Version:        1.1.0
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        A plugin for loading and saving HEIF images
 
 License:        GPLv3
@@ -42,6 +42,9 @@ intltoolize --copy --force --automake
 
 
 %changelog
+* Thu Nov 28 2019 Leigh Scott <leigh123linux@googlemail.com> - 1.1.0-6
+- Rebuild for new libheif version
+
 * Sun Nov 03 2019 Leigh Scott <leigh123linux@googlemail.com> - 1.1.0-5
 - Rebuild for new libheif version
 
