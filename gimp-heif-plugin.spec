@@ -1,6 +1,6 @@
 Name:           gimp-heif-plugin
 Version:        1.1.0
-Release:        7%{?dist}
+Release:        8%{?dist}
 Summary:        A plugin for loading and saving HEIF images
 
 License:        GPLv3
@@ -42,6 +42,9 @@ intltoolize --copy --force --automake
 
 
 %changelog
+* Mon Aug 17 2020 RPM Fusion Release Engineering <leigh123linux@gmail.com> - 1.1.0-8
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_33_Mass_Rebuild
+
 * Tue Feb 04 2020 RPM Fusion Release Engineering <leigh123linux@gmail.com> - 1.1.0-7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_32_Mass_Rebuild
 
